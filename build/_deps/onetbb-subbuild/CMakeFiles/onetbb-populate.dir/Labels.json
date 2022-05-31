@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/onetbb-subbuild/CMakeFiles/onetbb-populate"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/onetbb-subbuild/CMakeFiles/onetbb-populate.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/onetbb-subbuild/CMakeFiles/onetbb-populate-complete.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/onetbb-subbuild/onetbb-populate-prefix/src/onetbb-populate-stamp/onetbb-populate-install.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/onetbb-subbuild/onetbb-populate-prefix/src/onetbb-populate-stamp/onetbb-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/onetbb-subbuild/onetbb-populate-prefix/src/onetbb-populate-stamp/onetbb-populate-download.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/onetbb-subbuild/onetbb-populate-prefix/src/onetbb-populate-stamp/onetbb-populate-update.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/onetbb-subbuild/onetbb-populate-prefix/src/onetbb-populate-stamp/onetbb-populate-patch.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/onetbb-subbuild/onetbb-populate-prefix/src/onetbb-populate-stamp/onetbb-populate-configure.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/onetbb-subbuild/onetbb-populate-prefix/src/onetbb-populate-stamp/onetbb-populate-build.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/onetbb-subbuild/onetbb-populate-prefix/src/onetbb-populate-stamp/onetbb-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"onetbb-populate"
+		],
+		"name" : "onetbb-populate"
+	}
+}

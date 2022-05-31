@@ -1,0 +1,12 @@
+# Hashes of file build rules.
+d1f5d8d718e2349afe17e6a09b229c8c _deps/pmemkv-build/CMakeFiles/check-license
+859138efd0bbd6d1b4cafeb09a0271bf _deps/pmemkv-build/CMakeFiles/uninstall
+439a375f1e5868d6ed9db5d080ec9daa benchmark/CMakeFiles/pmem_rocksdb
+97baaae3fbf244a7ee6f972ed052bc8e benchmark/CMakeFiles/pmem_rocksdb-complete
+2efbdb1e37f9a88b1d2691f19d78b11e benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-build
+17a07f92edf02fc26d63dbad6c3614af benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-configure
+8390b940dfa1b1b887bd77e1d2c898dd benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-download
+7e3c02be0094982fe8248854f4b7d458 benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-install
+72d88a4a22088decdb1f3cf96e243b2a benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-mkdir
+133c386867750dd05ffd3fcdaa487b11 benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-patch
+e291ce100d7226d7ed8fafaf064b25cb benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-skip-update

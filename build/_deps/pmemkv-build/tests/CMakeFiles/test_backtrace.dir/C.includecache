@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jiawen/dbms/viper/build/_deps/pmemkv-src/tests/common/test_backtrace.c
+test_backtrace.h
+/home/jiawen/dbms/viper/build/_deps/pmemkv-src/tests/common/test_backtrace.h
+errno.h
+-
+signal.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+dlfcn.h
+-
+libunwind.h
+-
+execinfo.h
+-
+assert.h
+-
+tchar.h
+-
+windows.h
+-
+DbgHelp.h
+-
+
+/home/jiawen/dbms/viper/build/_deps/pmemkv-src/tests/common/test_backtrace.h
+

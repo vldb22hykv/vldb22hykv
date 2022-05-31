@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jiawen/dbms/viper/build/benchmark/CMakeFiles/pmem_rocksdb"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/benchmark/CMakeFiles/pmem_rocksdb.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/benchmark/CMakeFiles/pmem_rocksdb-complete.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-install.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-mkdir.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-download.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-patch.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-configure.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-build.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-skip-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pmem_rocksdb"
+		],
+		"name" : "pmem_rocksdb"
+	}
+}

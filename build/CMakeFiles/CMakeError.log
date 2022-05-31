@@ -1,0 +1,148 @@
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35707/fast && /usr/bin/make -f CMakeFiles/cmTC_35707.dir/build.make CMakeFiles/cmTC_35707.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35707.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_35707.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+make[1]: *** [CMakeFiles/cmTC_35707.dir/build.make:66: CMakeFiles/cmTC_35707.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_35707/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4b0a/fast && /usr/bin/make -f CMakeFiles/cmTC_d4b0a.dir/build.make CMakeFiles/cmTC_d4b0a.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4b0a.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -o CMakeFiles/cmTC_d4b0a.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd654'
+c++: error: unrecognized command line option '-wd654'
+make[1]: *** [CMakeFiles/cmTC_d4b0a.dir/build.make:66: CMakeFiles/cmTC_d4b0a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d4b0a/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6ba00/fast && /usr/bin/make -f CMakeFiles/cmTC_6ba00.dir/build.make CMakeFiles/cmTC_6ba00.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ba00.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_6ba00.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wthread-safety'
+c++: error: unrecognized command line option '-Wthread-safety'
+make[1]: *** [CMakeFiles/cmTC_6ba00.dir/build.make:66: CMakeFiles/cmTC_6ba00.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6ba00/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_113ef/fast && /usr/bin/make -f CMakeFiles/cmTC_113ef.dir/build.make CMakeFiles/cmTC_113ef.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_113ef.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_113ef.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_113ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_113ef.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_113ef.dir/src.c.o  -o cmTC_113ef 
+/usr/bin/ld: CMakeFiles/cmTC_113ef.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_113ef.dir/build.make:87: cmTC_113ef] Error 1
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_113ef/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C SOURCE FILE Test C_HAS__Wunreachable_code_return failed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_be7c5/fast && /usr/bin/make -f CMakeFiles/cmTC_be7c5.dir/build.make CMakeFiles/cmTC_be7c5.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be7c5.dir/src.c.o
+/usr/bin/cc   -Wall -Wpointer-arith -Wsign-compare -DC_HAS__Wunreachable_code_return   -Wunreachable-code-return -o CMakeFiles/cmTC_be7c5.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wunreachable-code-return'; did you mean '-Wunreachable-code'?
+make[1]: *** [CMakeFiles/cmTC_be7c5.dir/build.make:66: CMakeFiles/cmTC_be7c5.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_be7c5/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__Wunreachable_code_return failed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92859/fast && /usr/bin/make -f CMakeFiles/cmTC_92859.dir/build.make CMakeFiles/cmTC_92859.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_92859.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wpointer-arith -Wsign-compare -DCXX_HAS__Wunreachable_code_return   -Wunreachable-code-return -o CMakeFiles/cmTC_92859.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wunreachable-code-return'; did you mean '-Wunreachable-code'?
+make[1]: *** [CMakeFiles/cmTC_92859.dir/build.make:66: CMakeFiles/cmTC_92859.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_92859/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS__Wmissing_variable_declarations failed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_239e6/fast && /usr/bin/make -f CMakeFiles/cmTC_239e6.dir/build.make CMakeFiles/cmTC_239e6.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_239e6.dir/src.c.o
+/usr/bin/cc   -Wall -Wpointer-arith -Wsign-compare -DC_HAS__Wmissing_variable_declarations   -Wmissing-variable-declarations -o CMakeFiles/cmTC_239e6.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wmissing-variable-declarations'; did you mean '-Wmissing-declarations'?
+make[1]: *** [CMakeFiles/cmTC_239e6.dir/build.make:66: CMakeFiles/cmTC_239e6.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_239e6/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__Wmissing_variable_declarations failed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31beb/fast && /usr/bin/make -f CMakeFiles/cmTC_31beb.dir/build.make CMakeFiles/cmTC_31beb.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_31beb.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wpointer-arith -Wsign-compare -DCXX_HAS__Wmissing_variable_declarations   -Wmissing-variable-declarations -o CMakeFiles/cmTC_31beb.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wmissing-variable-declarations'; did you mean '-Wmissing-declarations'?
+make[1]: *** [CMakeFiles/cmTC_31beb.dir/build.make:66: CMakeFiles/cmTC_31beb.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_31beb/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

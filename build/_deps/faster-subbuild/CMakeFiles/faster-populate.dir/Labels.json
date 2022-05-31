@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/faster-subbuild/CMakeFiles/faster-populate"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/faster-subbuild/CMakeFiles/faster-populate.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/faster-subbuild/CMakeFiles/faster-populate-complete.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/faster-subbuild/faster-populate-prefix/src/faster-populate-stamp/faster-populate-install.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/faster-subbuild/faster-populate-prefix/src/faster-populate-stamp/faster-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/faster-subbuild/faster-populate-prefix/src/faster-populate-stamp/faster-populate-download.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/faster-subbuild/faster-populate-prefix/src/faster-populate-stamp/faster-populate-update.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/faster-subbuild/faster-populate-prefix/src/faster-populate-stamp/faster-populate-patch.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/faster-subbuild/faster-populate-prefix/src/faster-populate-stamp/faster-populate-configure.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/faster-subbuild/faster-populate-prefix/src/faster-populate-stamp/faster-populate-build.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/faster-subbuild/faster-populate-prefix/src/faster-populate-stamp/faster-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"faster-populate"
+		],
+		"name" : "faster-populate"
+	}
+}

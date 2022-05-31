@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/CMakeFiles/pmemkv-populate"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/CMakeFiles/pmemkv-populate.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/CMakeFiles/pmemkv-populate-complete.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/pmemkv-populate-prefix/src/pmemkv-populate-stamp/pmemkv-populate-install.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/pmemkv-populate-prefix/src/pmemkv-populate-stamp/pmemkv-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/pmemkv-populate-prefix/src/pmemkv-populate-stamp/pmemkv-populate-download.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/pmemkv-populate-prefix/src/pmemkv-populate-stamp/pmemkv-populate-update.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/pmemkv-populate-prefix/src/pmemkv-populate-stamp/pmemkv-populate-patch.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/pmemkv-populate-prefix/src/pmemkv-populate-stamp/pmemkv-populate-configure.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/pmemkv-populate-prefix/src/pmemkv-populate-stamp/pmemkv-populate-build.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/pmemkv-populate-prefix/src/pmemkv-populate-stamp/pmemkv-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pmemkv-populate"
+		],
+		"name" : "pmemkv-populate"
+	}
+}

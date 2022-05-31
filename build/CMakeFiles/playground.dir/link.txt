@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -g -DNDEBUG   CMakeFiles/playground.dir/playground.cpp.o  -o playground   -L/usr/local/lib  -L/home/jiawen/dbms/memkind_install/lib  -Wl,-rpath,/usr/local/lib:/home/jiawen/dbms/memkind_install/lib -lpthread -lpmem -lpmemobj -lpmempool -lmemkind 

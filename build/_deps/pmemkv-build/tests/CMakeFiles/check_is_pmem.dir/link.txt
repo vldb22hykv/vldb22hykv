@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -O2 -g -DNDEBUG  -rdynamic CMakeFiles/check_is_pmem.dir/common/check_is_pmem.cpp.o  -o check_is_pmem   -L/usr/local/lib  -L/home/jiawen/dbms/memkind_install/lib  -Wl,-rpath,/usr/local/lib:/home/jiawen/dbms/memkind_install/lib -lpmem 

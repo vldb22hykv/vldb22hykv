@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/google_benchmark-subbuild/CMakeFiles/google_benchmark-populate"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/google_benchmark-subbuild/CMakeFiles/google_benchmark-populate.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/google_benchmark-subbuild/CMakeFiles/google_benchmark-populate-complete.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/google_benchmark-subbuild/google_benchmark-populate-prefix/src/google_benchmark-populate-stamp/google_benchmark-populate-install.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/google_benchmark-subbuild/google_benchmark-populate-prefix/src/google_benchmark-populate-stamp/google_benchmark-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/google_benchmark-subbuild/google_benchmark-populate-prefix/src/google_benchmark-populate-stamp/google_benchmark-populate-download.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/google_benchmark-subbuild/google_benchmark-populate-prefix/src/google_benchmark-populate-stamp/google_benchmark-populate-update.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/google_benchmark-subbuild/google_benchmark-populate-prefix/src/google_benchmark-populate-stamp/google_benchmark-populate-patch.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/google_benchmark-subbuild/google_benchmark-populate-prefix/src/google_benchmark-populate-stamp/google_benchmark-populate-configure.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/google_benchmark-subbuild/google_benchmark-populate-prefix/src/google_benchmark-populate-stamp/google_benchmark-populate-build.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/google_benchmark-subbuild/google_benchmark-populate-prefix/src/google_benchmark-populate-stamp/google_benchmark-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"google_benchmark-populate"
+		],
+		"name" : "google_benchmark-populate"
+	}
+}

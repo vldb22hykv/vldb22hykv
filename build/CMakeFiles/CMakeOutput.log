@@ -1,0 +1,980 @@
+The system is: Linux - 5.8.0-53-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jiawen/dbms/viper/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jiawen/dbms/viper/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40a53/fast && /usr/bin/make -f CMakeFiles/cmTC_40a53.dir/build.make CMakeFiles/cmTC_40a53.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40a53.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_40a53.dir/testCCompiler.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_40a53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40a53.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_40a53.dir/testCCompiler.c.o  -o cmTC_40a53 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c81f/fast && /usr/bin/make -f CMakeFiles/cmTC_8c81f.dir/build.make CMakeFiles/cmTC_8c81f.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccNotY3C.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o /tmp/ccNotY3C.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_8c81f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c81f.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o  -o cmTC_8c81f 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c81f' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWM6YZ5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8c81f /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c81f' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_8c81f/fast && /usr/bin/make -f CMakeFiles/cmTC_8c81f.dir/build.make CMakeFiles/cmTC_8c81f.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccNotY3C.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o /tmp/ccNotY3C.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_8c81f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c81f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o  -o cmTC_8c81f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c81f' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWM6YZ5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8c81f /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWM6YZ5.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8c81f] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_8c81f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98c64/fast && /usr/bin/make -f CMakeFiles/cmTC_98c64.dir/build.make CMakeFiles/cmTC_98c64.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98c64.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_98c64.dir/testCXXCompiler.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_98c64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98c64.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_98c64.dir/testCXXCompiler.cxx.o  -o cmTC_98c64 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f8f80/fast && /usr/bin/make -f CMakeFiles/cmTC_f8f80.dir/build.make CMakeFiles/cmTC_f8f80.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccsCnrED.s
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccsCnrED.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_f8f80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8f80.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f8f80 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f8f80' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQ3vn42.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f8f80 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f8f80' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f8f80/fast && /usr/bin/make -f CMakeFiles/cmTC_f8f80.dir/build.make CMakeFiles/cmTC_f8f80.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccsCnrED.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccsCnrED.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_f8f80]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8f80.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f8f80 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f8f80' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQ3vn42.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f8f80 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQ3vn42.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f8f80] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_f8f80.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_19a89/fast && /usr/bin/make -f CMakeFiles/cmTC_19a89.dir/build.make CMakeFiles/cmTC_19a89.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19a89.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -std=c++11 -o CMakeFiles/cmTC_19a89.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_19a89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19a89.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11    CMakeFiles/cmTC_19a89.dir/src.cxx.o  -o cmTC_19a89 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_229fd/fast && /usr/bin/make -f CMakeFiles/cmTC_229fd.dir/build.make CMakeFiles/cmTC_229fd.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_229fd.dir/src.cxx.o
+/usr/bin/c++    -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -o CMakeFiles/cmTC_229fd.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_229fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_229fd.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11 -DHAVE_CXX_FLAG_WALL  -Wall    CMakeFiles/cmTC_229fd.dir/src.cxx.o  -o cmTC_229fd 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e52d/fast && /usr/bin/make -f CMakeFiles/cmTC_1e52d.dir/build.make CMakeFiles/cmTC_1e52d.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1e52d.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra   -Wextra -o CMakeFiles/cmTC_1e52d.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1e52d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e52d.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall -DHAVE_CXX_FLAG_WEXTRA  -Wextra    CMakeFiles/cmTC_1e52d.dir/src.cxx.o  -o cmTC_1e52d 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f586e/fast && /usr/bin/make -f CMakeFiles/cmTC_f586e.dir/build.make CMakeFiles/cmTC_f586e.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f586e.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow   -Wshadow -o CMakeFiles/cmTC_f586e.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f586e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f586e.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra -DHAVE_CXX_FLAG_WSHADOW  -Wshadow    CMakeFiles/cmTC_f586e.dir/src.cxx.o  -o cmTC_f586e 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bdccc/fast && /usr/bin/make -f CMakeFiles/cmTC_bdccc.dir/build.make CMakeFiles/cmTC_bdccc.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bdccc.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror   -Werror -o CMakeFiles/cmTC_bdccc.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bdccc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdccc.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_WERROR  -Werror    CMakeFiles/cmTC_bdccc.dir/src.cxx.o  -o cmTC_bdccc 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a0aa/fast && /usr/bin/make -f CMakeFiles/cmTC_0a0aa.dir/build.make CMakeFiles/cmTC_0a0aa.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a0aa.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing   -fstrict-aliasing -o CMakeFiles/cmTC_0a0aa.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0a0aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a0aa.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fstrict-aliasing    CMakeFiles/cmTC_0a0aa.dir/src.cxx.o  -o cmTC_0a0aa 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6fe6/fast && /usr/bin/make -f CMakeFiles/cmTC_f6fe6.dir/build.make CMakeFiles/cmTC_f6fe6.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f6fe6.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations   -Wno-deprecated-declarations -o CMakeFiles/cmTC_f6fe6.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f6fe6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6fe6.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wno-deprecated-declarations    CMakeFiles/cmTC_f6fe6.dir/src.cxx.o  -o cmTC_f6fe6 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1fd45/fast && /usr/bin/make -f CMakeFiles/cmTC_1fd45.dir/build.make CMakeFiles/cmTC_1fd45.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1fd45.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated   -Wno-deprecated -o CMakeFiles/cmTC_1fd45.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1fd45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fd45.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wno-deprecated    CMakeFiles/cmTC_1fd45.dir/src.cxx.o  -o cmTC_1fd45 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cb6c2/fast && /usr/bin/make -f CMakeFiles/cmTC_cb6c2.dir/build.make CMakeFiles/cmTC_cb6c2.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cb6c2.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTC_cb6c2.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cb6c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb6c2.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing  -Wno-deprecated-declarations -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wstrict-aliasing    CMakeFiles/cmTC_cb6c2.dir/src.cxx.o  -o cmTC_cb6c2 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c21ec/fast && /usr/bin/make -f CMakeFiles/cmTC_c21ec.dir/build.make CMakeFiles/cmTC_c21ec.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c21ec.dir/src.cxx.o
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage   --coverage -o CMakeFiles/cmTC_c21ec.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c21ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c21ec.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++11  -Wall  -Wextra  -Wshadow  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_COVERAGE  --coverage    CMakeFiles/cmTC_c21ec.dir/src.cxx.o  -o cmTC_c21ec 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8da3/fast && /usr/bin/make -f CMakeFiles/cmTC_d8da3.dir/build.make CMakeFiles/cmTC_d8da3.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8da3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d8da3.dir/CheckIncludeFile.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d8da3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8da3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d8da3.dir/CheckIncludeFile.c.o  -o cmTC_d8da3 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test C_HAS__Wall succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0c11/fast && /usr/bin/make -f CMakeFiles/cmTC_d0c11.dir/build.make CMakeFiles/cmTC_d0c11.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0c11.dir/src.c.o
+/usr/bin/cc   -DC_HAS__Wall   -Wall -o CMakeFiles/cmTC_d0c11.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d0c11
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0c11.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_HAS__Wall    CMakeFiles/cmTC_d0c11.dir/src.c.o  -o cmTC_d0c11 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__Wall succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51e46/fast && /usr/bin/make -f CMakeFiles/cmTC_51e46.dir/build.make CMakeFiles/cmTC_51e46.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_51e46.dir/src.cxx.o
+/usr/bin/c++    -DCXX_HAS__Wall   -Wall -o CMakeFiles/cmTC_51e46.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_51e46
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51e46.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_HAS__Wall    CMakeFiles/cmTC_51e46.dir/src.cxx.o  -o cmTC_51e46 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS__Wpointer_arith succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f42bc/fast && /usr/bin/make -f CMakeFiles/cmTC_f42bc.dir/build.make CMakeFiles/cmTC_f42bc.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f42bc.dir/src.c.o
+/usr/bin/cc   -Wall -DC_HAS__Wpointer_arith   -Wpointer-arith -o CMakeFiles/cmTC_f42bc.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f42bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f42bc.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -DC_HAS__Wpointer_arith    CMakeFiles/cmTC_f42bc.dir/src.c.o  -o cmTC_f42bc 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__Wpointer_arith succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6c059/fast && /usr/bin/make -f CMakeFiles/cmTC_6c059.dir/build.make CMakeFiles/cmTC_6c059.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c059.dir/src.cxx.o
+/usr/bin/c++    -Wall -DCXX_HAS__Wpointer_arith   -Wpointer-arith -o CMakeFiles/cmTC_6c059.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6c059
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c059.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -DCXX_HAS__Wpointer_arith    CMakeFiles/cmTC_6c059.dir/src.cxx.o  -o cmTC_6c059 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS__Wsign_compare succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ff38/fast && /usr/bin/make -f CMakeFiles/cmTC_7ff38.dir/build.make CMakeFiles/cmTC_7ff38.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ff38.dir/src.c.o
+/usr/bin/cc   -Wall -Wpointer-arith -DC_HAS__Wsign_compare   -Wsign-compare -o CMakeFiles/cmTC_7ff38.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7ff38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ff38.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wpointer-arith -DC_HAS__Wsign_compare    CMakeFiles/cmTC_7ff38.dir/src.c.o  -o cmTC_7ff38 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__Wsign_compare succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1712a/fast && /usr/bin/make -f CMakeFiles/cmTC_1712a.dir/build.make CMakeFiles/cmTC_1712a.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1712a.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wpointer-arith -DCXX_HAS__Wsign_compare   -Wsign-compare -o CMakeFiles/cmTC_1712a.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1712a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1712a.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wpointer-arith -DCXX_HAS__Wsign_compare    CMakeFiles/cmTC_1712a.dir/src.cxx.o  -o cmTC_1712a 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS__fno_common succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2a8b/fast && /usr/bin/make -f CMakeFiles/cmTC_e2a8b.dir/build.make CMakeFiles/cmTC_e2a8b.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2a8b.dir/src.c.o
+/usr/bin/cc   -Wall -Wpointer-arith -Wsign-compare -DC_HAS__fno_common   -fno-common -o CMakeFiles/cmTC_e2a8b.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e2a8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2a8b.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wpointer-arith -Wsign-compare -DC_HAS__fno_common    CMakeFiles/cmTC_e2a8b.dir/src.c.o  -o cmTC_e2a8b 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__fno_common succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f55ee/fast && /usr/bin/make -f CMakeFiles/cmTC_f55ee.dir/build.make CMakeFiles/cmTC_f55ee.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f55ee.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wpointer-arith -Wsign-compare -DCXX_HAS__fno_common   -fno-common -o CMakeFiles/cmTC_f55ee.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f55ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f55ee.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wpointer-arith -Wsign-compare -DCXX_HAS__fno_common    CMakeFiles/cmTC_f55ee.dir/src.cxx.o  -o cmTC_f55ee 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS__Wunused_macros succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77985/fast && /usr/bin/make -f CMakeFiles/cmTC_77985.dir/build.make CMakeFiles/cmTC_77985.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77985.dir/src.c.o
+/usr/bin/cc   -Wall -Wpointer-arith -Wsign-compare -fno-common -DC_HAS__Wunused_macros   -Wunused-macros -o CMakeFiles/cmTC_77985.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_77985
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77985.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wpointer-arith -Wsign-compare -fno-common -DC_HAS__Wunused_macros    CMakeFiles/cmTC_77985.dir/src.c.o  -o cmTC_77985 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__Wunused_macros succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e944b/fast && /usr/bin/make -f CMakeFiles/cmTC_e944b.dir/build.make CMakeFiles/cmTC_e944b.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e944b.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wpointer-arith -Wsign-compare -fno-common -DCXX_HAS__Wunused_macros   -Wunused-macros -o CMakeFiles/cmTC_e944b.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e944b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e944b.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wpointer-arith -Wsign-compare -fno-common -DCXX_HAS__Wunused_macros    CMakeFiles/cmTC_e944b.dir/src.cxx.o  -o cmTC_e944b 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS__Wsign_conversion succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6e2b9/fast && /usr/bin/make -f CMakeFiles/cmTC_6e2b9.dir/build.make CMakeFiles/cmTC_6e2b9.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e2b9.dir/src.c.o
+/usr/bin/cc   -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -DC_HAS__Wsign_conversion   -Wsign-conversion -o CMakeFiles/cmTC_6e2b9.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6e2b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e2b9.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -DC_HAS__Wsign_conversion    CMakeFiles/cmTC_6e2b9.dir/src.c.o  -o cmTC_6e2b9 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__Wsign_conversion succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2cd9d/fast && /usr/bin/make -f CMakeFiles/cmTC_2cd9d.dir/build.make CMakeFiles/cmTC_2cd9d.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2cd9d.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -DCXX_HAS__Wsign_conversion   -Wsign-conversion -o CMakeFiles/cmTC_2cd9d.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2cd9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cd9d.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -DCXX_HAS__Wsign_conversion    CMakeFiles/cmTC_2cd9d.dir/src.cxx.o  -o cmTC_2cd9d 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS__ggdb succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f8e53/fast && /usr/bin/make -f CMakeFiles/cmTC_f8e53.dir/build.make CMakeFiles/cmTC_f8e53.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8e53.dir/src.c.o
+/usr/bin/cc   -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DC_HAS__ggdb   -ggdb -o CMakeFiles/cmTC_f8e53.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f8e53
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8e53.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DC_HAS__ggdb    CMakeFiles/cmTC_f8e53.dir/src.c.o  -o cmTC_f8e53 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__ggdb succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_143b2/fast && /usr/bin/make -f CMakeFiles/cmTC_143b2.dir/build.make CMakeFiles/cmTC_143b2.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_143b2.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DCXX_HAS__ggdb   -ggdb -o CMakeFiles/cmTC_143b2.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_143b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_143b2.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DCXX_HAS__ggdb    CMakeFiles/cmTC_143b2.dir/src.cxx.o  -o cmTC_143b2 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS__DDEBUG succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2a0d9/fast && /usr/bin/make -f CMakeFiles/cmTC_2a0d9.dir/build.make CMakeFiles/cmTC_2a0d9.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a0d9.dir/src.c.o
+/usr/bin/cc -DDEBUG  -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DC_HAS__DDEBUG   -o CMakeFiles/cmTC_2a0d9.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2a0d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a0d9.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DC_HAS__DDEBUG    CMakeFiles/cmTC_2a0d9.dir/src.c.o  -o cmTC_2a0d9 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__DDEBUG succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0867e/fast && /usr/bin/make -f CMakeFiles/cmTC_0867e.dir/build.make CMakeFiles/cmTC_0867e.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0867e.dir/src.cxx.o
+/usr/bin/c++  -DDEBUG  -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DCXX_HAS__DDEBUG   -o CMakeFiles/cmTC_0867e.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0867e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0867e.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DCXX_HAS__DDEBUG    CMakeFiles/cmTC_0867e.dir/src.cxx.o  -o cmTC_0867e 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_HAS__U_FORTIFY_SOURCE__D_FORTIFY_SOURCE_2 succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_482a4/fast && /usr/bin/make -f CMakeFiles/cmTC_482a4.dir/build.make CMakeFiles/cmTC_482a4.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_482a4.dir/src.c.o
+/usr/bin/cc   -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DC_HAS__U_FORTIFY_SOURCE__D_FORTIFY_SOURCE_2   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_482a4.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_482a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_482a4.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DC_HAS__U_FORTIFY_SOURCE__D_FORTIFY_SOURCE_2    CMakeFiles/cmTC_482a4.dir/src.c.o  -o cmTC_482a4 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__U_FORTIFY_SOURCE__D_FORTIFY_SOURCE_2 succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_26b17/fast && /usr/bin/make -f CMakeFiles/cmTC_26b17.dir/build.make CMakeFiles/cmTC_26b17.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26b17.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DCXX_HAS__U_FORTIFY_SOURCE__D_FORTIFY_SOURCE_2   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -o CMakeFiles/cmTC_26b17.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_26b17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26b17.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DCXX_HAS__U_FORTIFY_SOURCE__D_FORTIFY_SOURCE_2    CMakeFiles/cmTC_26b17.dir/src.cxx.o  -o cmTC_26b17 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBMEMKIND_NAMESPACE_PRESENT succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_676a3/fast && /usr/bin/make -f CMakeFiles/cmTC_676a3.dir/build.make CMakeFiles/cmTC_676a3.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_676a3.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DLIBMEMKIND_NAMESPACE_PRESENT   -o CMakeFiles/cmTC_676a3.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_676a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_676a3.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DLIBMEMKIND_NAMESPACE_PRESENT    CMakeFiles/cmTC_676a3.dir/src.cxx.o  -o cmTC_676a3 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <stdexcept>
+		#include "pmem_allocator.h"
+		int main(void) {
+		libmemkind::pmem::allocator<int> *alc = nullptr;
+		(void)alc;
+		}
+Performing C SOURCE FILE Test C_HAS__Wno_unused_but_set_variable succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c4535/fast && /usr/bin/make -f CMakeFiles/cmTC_c4535.dir/build.make CMakeFiles/cmTC_c4535.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4535.dir/src.c.o
+/usr/bin/cc   -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DC_HAS__Wno_unused_but_set_variable   -Wno-unused-but-set-variable -o CMakeFiles/cmTC_c4535.dir/src.c.o   -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c4535
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4535.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DC_HAS__Wno_unused_but_set_variable    CMakeFiles/cmTC_c4535.dir/src.c.o  -o cmTC_c4535 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS__Wno_unused_but_set_variable succeeded with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c457/fast && /usr/bin/make -f CMakeFiles/cmTC_7c457.dir/build.make CMakeFiles/cmTC_7c457.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c457.dir/src.cxx.o
+/usr/bin/c++    -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DCXX_HAS__Wno_unused_but_set_variable   -Wno-unused-but-set-variable -o CMakeFiles/cmTC_7c457.dir/src.cxx.o -c /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7c457
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c457.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -Wpointer-arith -Wsign-compare -fno-common -Wunused-macros -Wsign-conversion -DCXX_HAS__Wno_unused_but_set_variable    CMakeFiles/cmTC_7c457.dir/src.cxx.o  -o cmTC_7c457 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function ceil exists in the m passed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12300/fast && /usr/bin/make -f CMakeFiles/cmTC_12300.dir/build.make CMakeFiles/cmTC_12300.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12300.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=ceil   -o CMakeFiles/cmTC_12300.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘ceil’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘ceil’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_12300
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12300.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=ceil    CMakeFiles/cmTC_12300.dir/CheckFunctionExists.c.o  -o cmTC_12300  -lm 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3229/fast && /usr/bin/make -f CMakeFiles/cmTC_c3229.dir/build.make CMakeFiles/cmTC_c3229.dir/build
+make[1]: Entering directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3229.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_c3229.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3229
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3229.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_c3229.dir/CheckFunctionExists.c.o  -o cmTC_c3229  -lrt 
+make[1]: Leaving directory '/home/jiawen/dbms/viper/build/CMakeFiles/CMakeTmp'
+
+
+

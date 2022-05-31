@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/concurrent_queue-subbuild/CMakeFiles/concurrent_queue-populate"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/concurrent_queue-subbuild/CMakeFiles/concurrent_queue-populate.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/concurrent_queue-subbuild/CMakeFiles/concurrent_queue-populate-complete.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/concurrent_queue-subbuild/concurrent_queue-populate-prefix/src/concurrent_queue-populate-stamp/concurrent_queue-populate-install.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/concurrent_queue-subbuild/concurrent_queue-populate-prefix/src/concurrent_queue-populate-stamp/concurrent_queue-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/concurrent_queue-subbuild/concurrent_queue-populate-prefix/src/concurrent_queue-populate-stamp/concurrent_queue-populate-download.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/concurrent_queue-subbuild/concurrent_queue-populate-prefix/src/concurrent_queue-populate-stamp/concurrent_queue-populate-update.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/concurrent_queue-subbuild/concurrent_queue-populate-prefix/src/concurrent_queue-populate-stamp/concurrent_queue-populate-patch.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/concurrent_queue-subbuild/concurrent_queue-populate-prefix/src/concurrent_queue-populate-stamp/concurrent_queue-populate-configure.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/concurrent_queue-subbuild/concurrent_queue-populate-prefix/src/concurrent_queue-populate-stamp/concurrent_queue-populate-build.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/concurrent_queue-subbuild/concurrent_queue-populate-prefix/src/concurrent_queue-populate-stamp/concurrent_queue-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"concurrent_queue-populate"
+		],
+		"name" : "concurrent_queue-populate"
+	}
+}

@@ -1,0 +1,3 @@
+repository='https://github.com/lawben/faster.git'
+module=''
+tag='origin'

@@ -1,0 +1,3 @@
+repository='https://github.com/baotonglu/dash.git'
+module=''
+tag='origin'

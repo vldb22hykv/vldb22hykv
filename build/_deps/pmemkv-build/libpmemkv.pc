@@ -1,0 +1,12 @@
+version=1.4
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: libpmemkv
+Description: libpmemkv - Key/Value Datastore for Persistent Memory
+Version: ${version}
+URL: https://github.com/pmem/pmemkv
+Requires.private: libpmemobj++ >= 1.12
+Libs: -L${libdir} -lpmemkv
+Cflags: -I${includedir}

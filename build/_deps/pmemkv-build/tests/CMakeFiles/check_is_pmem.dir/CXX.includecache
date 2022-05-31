@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jiawen/dbms/viper/build/_deps/pmemkv-src/tests/common/check_is_pmem.cpp
+cstdio
+-
+iostream
+-
+libpmem.h
+-
+

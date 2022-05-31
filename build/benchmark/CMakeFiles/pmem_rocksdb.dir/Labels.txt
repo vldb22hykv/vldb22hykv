@@ -1,0 +1,13 @@
+# Target labels
+ pmem_rocksdb
+# Source files and their labels
+/home/jiawen/dbms/viper/build/benchmark/CMakeFiles/pmem_rocksdb
+/home/jiawen/dbms/viper/build/benchmark/CMakeFiles/pmem_rocksdb.rule
+/home/jiawen/dbms/viper/build/benchmark/CMakeFiles/pmem_rocksdb-complete.rule
+/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-install.rule
+/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-mkdir.rule
+/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-download.rule
+/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-patch.rule
+/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-configure.rule
+/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-build.rule
+/home/jiawen/dbms/viper/build/benchmark/pmem-rocksdb/src/pmem_rocksdb-stamp/pmem_rocksdb-skip-update.rule

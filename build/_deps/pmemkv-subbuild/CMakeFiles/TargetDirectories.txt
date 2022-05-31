@@ -1,0 +1,3 @@
+/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/CMakeFiles/rebuild_cache.dir
+/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/CMakeFiles/edit_cache.dir
+/home/jiawen/dbms/viper/build/_deps/pmemkv-subbuild/CMakeFiles/pmemkv-populate.dir

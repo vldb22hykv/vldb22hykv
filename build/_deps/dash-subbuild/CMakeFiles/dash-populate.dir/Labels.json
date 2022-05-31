@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/dash-subbuild/CMakeFiles/dash-populate"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/dash-subbuild/CMakeFiles/dash-populate.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/dash-subbuild/CMakeFiles/dash-populate-complete.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/dash-subbuild/dash-populate-prefix/src/dash-populate-stamp/dash-populate-install.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/dash-subbuild/dash-populate-prefix/src/dash-populate-stamp/dash-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/dash-subbuild/dash-populate-prefix/src/dash-populate-stamp/dash-populate-download.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/dash-subbuild/dash-populate-prefix/src/dash-populate-stamp/dash-populate-update.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/dash-subbuild/dash-populate-prefix/src/dash-populate-stamp/dash-populate-patch.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/dash-subbuild/dash-populate-prefix/src/dash-populate-stamp/dash-populate-configure.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/dash-subbuild/dash-populate-prefix/src/dash-populate-stamp/dash-populate-build.rule"
+		},
+		{
+			"file" : "/home/jiawen/dbms/viper/build/_deps/dash-subbuild/dash-populate-prefix/src/dash-populate-stamp/dash-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dash-populate"
+		],
+		"name" : "dash-populate"
+	}
+}
